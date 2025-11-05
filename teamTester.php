@@ -7,8 +7,9 @@ $myTeam = new Team("Tigers");
 $myTeam->finalScore(2,2);
 
 
-echo "Tigers total points are " .$myTeam -> getTotalPoints();
-echo "That worked";
+echo "\nTigers total points are " .$myTeam -> getTotalPoints();
+echo "\nTigers goal average is " .$myTeam -> getGoalAverage();
+echo "\nThat worked";
 
 
 ?>
